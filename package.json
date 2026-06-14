@@ -1,0 +1,25 @@
+{
+  "name": "comedor-web",
+  "version": "4.0.0",
+  "description": "Gestión Comedor — Sistema de Inventario Web v4.0",
+  "main": "src/backend/server.js",
+  "scripts": {
+    "start": "node src/backend/server.js",
+    "dev": "nodemon src/backend/server.js",
+    "test": "echo \"Tests: see docs/12_plan_pruebas.md\" && exit 0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.1.2",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Comedor Team",
+  "license": "MIT"
+}
